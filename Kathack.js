@@ -1,6 +1,8 @@
 /*
 Copyright Alex Leone, David Nufer, David Truong, 2011-03-11. kathack.com
 
+http://kathack.com/
+
 javascript:var i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);
 
 */
@@ -726,7 +728,7 @@ function whenAllLoaded(gameDiv, popup, stickyNodes) {
                 bgmusic = document.createElement('audio');
                 bgmusic.id = 'khbgmusic';
                 bgmusic.loop = 'loop';
-                bgmusic.src = 'http://kathack.com/js/katamari.mp3';
+                bgmusic.src = 'https://laharlsblade.github.io/KathackHost/katamari.mp3';
                 gameDiv.appendChild(bgmusic);
             }
             bgmusic.play();
